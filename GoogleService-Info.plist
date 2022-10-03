@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>428083237893-d3727o19t8aq7rhnd5uute394fb2catf.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.428083237893-d3727o19t8aq7rhnd5uute394fb2catf</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDQBb5a1BnQJux7uX0SG1_PeuPoh3r_R5A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>428083237893</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kolpolok.flex365.tv</string>
+	<key>PROJECT_ID</key>
+	<string>flex365-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>flex365-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:428083237893:ios:ea169f1f9faee25179f86c</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+</dict>
+</plist>

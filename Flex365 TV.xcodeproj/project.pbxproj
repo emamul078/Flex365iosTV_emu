@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F00E8E55483D4F7BDE8C951 /* Pods_Flex365_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7ED2C28575F2FB6F89F1E4 /* Pods_Flex365_TV.framework */; };
+		330E896728B33B7800409862 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E896628B33B7800409862 /* LoginViewController.swift */; };
+		330E896928B33BA200409862 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E896828B33BA200409862 /* MenuViewController.swift */; };
+		330E8A3628B4CB8E00409862 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330E8A3528B4CB8E00409862 /* AVFoundation.framework */; };
+		330E8A3828B4CB9500409862 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330E8A3728B4CB9500409862 /* AVKit.framework */; };
+		3326F0CB28DC2D7200441D6D /* categorycell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3326F0CA28DC2D7200441D6D /* categorycell2.swift */; };
+		3326F0CD28DC2D8D00441D6D /* channelcell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3326F0CC28DC2D8D00441D6D /* channelcell2.swift */; };
+		3339D10F28D33D6E007E3922 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D10E28D33D6E007E3922 /* SearchViewController.swift */; };
+		3339D11528D840BE007E3922 /* Channels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D11228D840BE007E3922 /* Channels.swift */; };
+		3339D11628D840BE007E3922 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D11328D840BE007E3922 /* Response.swift */; };
+		3339D11728D840BE007E3922 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D11428D840BE007E3922 /* Categories.swift */; };
+		3339D11928D842C7007E3922 /* GridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D11828D842C7007E3922 /* GridViewController.swift */; };
+		3339D14228D98B12007E3922 /* categorycell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D14128D98B12007E3922 /* categorycell.swift */; };
+		3339D14428D9BA42007E3922 /* channelcell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3339D14328D9BA42007E3922 /* channelcell.swift */; };
+		333F662128EACC35007A3D7E /* DynamicHeightCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F662028EACC35007A3D7E /* DynamicHeightCollectionView.swift */; };
+		33746B1728C4882300FEB304 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33746B1628C4882300FEB304 /* NetworkManager.swift */; };
+		33746B1F28C489A700FEB304 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33746B1E28C489A700FEB304 /* NotificationService.swift */; };
+		33746B2428C489A700FEB304 /* NotificationServiceExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 33746B1C28C489A700FEB304 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		33903E3328C4604200935F64 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33903E3228C4604200935F64 /* User.swift */; };
+		33D1FE3C28D326960041AE1D /* KSToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D1FE3B28D326960041AE1D /* KSToastView.m */; };
+		33D1FE3F28D326CE0041AE1D /* HexColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 33D1FE3D28D326CE0041AE1D /* HexColors.m */; };
+		33F1035D28CF862500135060 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1035C28CF862500135060 /* Spinner.swift */; };
+		33F1035F28D05E3D00135060 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F1035E28D05E3D00135060 /* AccountViewController.swift */; };
+		33F1036128D0823A00135060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F1036028D0823A00135060 /* Assets.xcassets */; };
+		33F9034E28AE28440061347D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9034D28AE28440061347D /* AppDelegate.swift */; };
+		33F9035228AE28440061347D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33F9035128AE28440061347D /* ViewController.swift */; };
+		33F9035528AE28440061347D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F9035328AE28440061347D /* Main.storyboard */; };
+		33F9035A28AE28450061347D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F9035828AE28450061347D /* LaunchScreen.storyboard */; };
+		5A8B1CD87B6B3E3F455A3644 /* Pods_NotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7F3BF08A8AFBDDA7786A58 /* Pods_NotificationServiceExtension.framework */; };
+		D2611BF528E056B0004F49EA /* ModelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2611BF428E056B0004F49EA /* ModelMenu.swift */; };
+		D2611BF828E183FD004F49EA /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2611BF728E183FD004F49EA /* FavouriteViewController.swift */; };
+		D2611BFA28E1A960004F49EA /* ModelSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2611BF928E1A960004F49EA /* ModelSearch.swift */; };
+		D2611BFC28E1B58A004F49EA /* ModelFavourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2611BFB28E1B58A004F49EA /* ModelFavourite.swift */; };
+		D2611C0828E2BA3C004F49EA /* bussiness.json in Resources */ = {isa = PBXBuildFile; fileRef = D2611C0728E2BA3C004F49EA /* bussiness.json */; };
+		D2611C0A28E2BB8A004F49EA /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = D2611C0928E2BB8A004F49EA /* help.json */; };
+		D2611C0C28E2CBEE004F49EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2611C0B28E2CBED004F49EA /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33746B2128C489A700FEB304 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F9034228AE28440061347D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33746B1B28C489A700FEB304;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		33746B2328C489A700FEB304 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				33746B2428C489A700FEB304 /* NotificationServiceExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		330E896628B33B7800409862 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		330E896828B33BA200409862 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		330E8A3228B4B46C00409862 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330E8A3528B4CB8E00409862 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		330E8A3728B4CB9500409862 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		330E8A3928B62ECC00409862 /* SwiftCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3326F0CA28DC2D7200441D6D /* categorycell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categorycell2.swift; sourceTree = "<group>"; };
+		3326F0CC28DC2D8D00441D6D /* channelcell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelcell2.swift; sourceTree = "<group>"; };
+		3339D10E28D33D6E007E3922 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchViewController.swift; path = "Flex365 TV/SearchViewController.swift"; sourceTree = SOURCE_ROOT; };
+		3339D11228D840BE007E3922 /* Channels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channels.swift; sourceTree = "<group>"; };
+		3339D11328D840BE007E3922 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		3339D11428D840BE007E3922 /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		3339D11828D842C7007E3922 /* GridViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridViewController.swift; sourceTree = "<group>"; };
+		3339D14128D98B12007E3922 /* categorycell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categorycell.swift; sourceTree = "<group>"; };
+		3339D14328D9BA42007E3922 /* channelcell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelcell.swift; sourceTree = "<group>"; };
+		333F662028EACC35007A3D7E /* DynamicHeightCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightCollectionView.swift; sourceTree = "<group>"; };
+		33746B1628C4882300FEB304 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		33746B1C28C489A700FEB304 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		33746B1E28C489A700FEB304 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		33746B2028C489A700FEB304 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33903E3228C4604200935F64 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		33D1FE3928D326960041AE1D /* Flex365 TV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flex365 TV-Bridging-Header.h"; sourceTree = "<group>"; };
+		33D1FE3A28D326960041AE1D /* KSToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSToastView.h; sourceTree = "<group>"; };
+		33D1FE3B28D326960041AE1D /* KSToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSToastView.m; sourceTree = "<group>"; };
+		33D1FE3D28D326CE0041AE1D /* HexColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexColors.m; sourceTree = "<group>"; };
+		33D1FE3E28D326CE0041AE1D /* HexColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexColors.h; sourceTree = "<group>"; };
+		33F1035C28CF862500135060 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		33F1035E28D05E3D00135060 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		33F1036028D0823A00135060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Flex365 TV/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		33F9034A28AE28440061347D /* Flex365 TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flex365 TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F9034D28AE28440061347D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33F9035128AE28440061347D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33F9035428AE28440061347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33F9035928AE28450061347D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7F3BF08A8AFBDDA7786A58 /* Pods_NotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FCE00B2120E51B775432BD4 /* Pods-Flex365 TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flex365 TV.release.xcconfig"; path = "Target Support Files/Pods-Flex365 TV/Pods-Flex365 TV.release.xcconfig"; sourceTree = "<group>"; };
+		ABE49AA59F135733328B0F90 /* Pods-NotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B953550FDE8303D7A2ED0DE5 /* Pods-Flex365 TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flex365 TV.debug.xcconfig"; path = "Target Support Files/Pods-Flex365 TV/Pods-Flex365 TV.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7ED2C28575F2FB6F89F1E4 /* Pods_Flex365_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flex365_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2611BF428E056B0004F49EA /* ModelMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelMenu.swift; sourceTree = "<group>"; };
+		D2611BF728E183FD004F49EA /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		D2611BF928E1A960004F49EA /* ModelSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSearch.swift; sourceTree = "<group>"; };
+		D2611BFB28E1B58A004F49EA /* ModelFavourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelFavourite.swift; sourceTree = "<group>"; };
+		D2611C0728E2BA3C004F49EA /* bussiness.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bussiness.json; sourceTree = "<group>"; };
+		D2611C0928E2BB8A004F49EA /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		D2611C0B28E2CBED004F49EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FCBD8F7EA99C1C2CC6A5BF04 /* Pods-NotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-NotificationServiceExtension/Pods-NotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33746B1928C489A700FEB304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A8B1CD87B6B3E3F455A3644 /* Pods_NotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F9034728AE28440061347D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330E8A3828B4CB9500409862 /* AVKit.framework in Frameworks */,
+				330E8A3628B4CB8E00409862 /* AVFoundation.framework in Frameworks */,
+				0F00E8E55483D4F7BDE8C951 /* Pods_Flex365_TV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330E8A3428B4CB8E00409862 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				330E8A3928B62ECC00409862 /* SwiftCarousel.framework */,
+				330E8A3728B4CB9500409862 /* AVKit.framework */,
+				330E8A3528B4CB8E00409862 /* AVFoundation.framework */,
+				BE7ED2C28575F2FB6F89F1E4 /* Pods_Flex365_TV.framework */,
+				7E7F3BF08A8AFBDDA7786A58 /* Pods_NotificationServiceExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3339D14028D98AE1007E3922 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3339D14128D98B12007E3922 /* categorycell.swift */,
+				3326F0CA28DC2D7200441D6D /* categorycell2.swift */,
+				3339D14328D9BA42007E3922 /* channelcell.swift */,
+				3326F0CC28DC2D8D00441D6D /* channelcell2.swift */,
+				D2611BFB28E1B58A004F49EA /* ModelFavourite.swift */,
+				D2611BF428E056B0004F49EA /* ModelMenu.swift */,
+				D2611BF928E1A960004F49EA /* ModelSearch.swift */,
+				333F662028EACC35007A3D7E /* DynamicHeightCollectionView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		33746B1528C4880300FEB304 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				33746B1628C4882300FEB304 /* NetworkManager.swift */,
+				33F1035C28CF862500135060 /* Spinner.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		33746B1D28C489A700FEB304 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				33746B1E28C489A700FEB304 /* NotificationService.swift */,
+				33746B2028C489A700FEB304 /* Info.plist */,
+			);
+			path = NotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		33903E3128C4601F00935F64 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3339D11428D840BE007E3922 /* Categories.swift */,
+				3339D11228D840BE007E3922 /* Channels.swift */,
+				3339D11328D840BE007E3922 /* Response.swift */,
+				33903E3228C4604200935F64 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33D1FE3828D326510041AE1D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				33D1FE3E28D326CE0041AE1D /* HexColors.h */,
+				33D1FE3D28D326CE0041AE1D /* HexColors.m */,
+				33D1FE3A28D326960041AE1D /* KSToastView.h */,
+				33D1FE3B28D326960041AE1D /* KSToastView.m */,
+				33D1FE3928D326960041AE1D /* Flex365 TV-Bridging-Header.h */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		33D1FE4028D3335F0041AE1D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				33F1035E28D05E3D00135060 /* AccountViewController.swift */,
+				D2611BF728E183FD004F49EA /* FavouriteViewController.swift */,
+				3339D11828D842C7007E3922 /* GridViewController.swift */,
+				330E896628B33B7800409862 /* LoginViewController.swift */,
+				330E896828B33BA200409862 /* MenuViewController.swift */,
+				3339D10E28D33D6E007E3922 /* SearchViewController.swift */,
+				33F9035128AE28440061347D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		33F9034128AE28440061347D = {
+			isa = PBXGroup;
+			children = (
+				D2611C0728E2BA3C004F49EA /* bussiness.json */,
+				D2611C0928E2BB8A004F49EA /* help.json */,
+				D2611C0B28E2CBED004F49EA /* GoogleService-Info.plist */,
+				3339D14028D98AE1007E3922 /* Cells */,
+				33D1FE4028D3335F0041AE1D /* Controllers */,
+				33F9034C28AE28440061347D /* Flex365 TV */,
+				330E8A3428B4CB8E00409862 /* Frameworks */,
+				33D1FE3828D326510041AE1D /* Libraries */,
+				33746B1D28C489A700FEB304 /* NotificationServiceExtension */,
+				885C1612E8C598DB3BD41316 /* Pods */,
+				33F9034B28AE28440061347D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F9034B28AE28440061347D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F9034A28AE28440061347D /* Flex365 TV.app */,
+				33746B1C28C489A700FEB304 /* NotificationServiceExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F9034C28AE28440061347D /* Flex365 TV */ = {
+			isa = PBXGroup;
+			children = (
+				33F9034D28AE28440061347D /* AppDelegate.swift */,
+				33F1036028D0823A00135060 /* Assets.xcassets */,
+				330E8A3228B4B46C00409862 /* Info.plist */,
+				33F9035828AE28450061347D /* LaunchScreen.storyboard */,
+				33F9035328AE28440061347D /* Main.storyboard */,
+				33903E3128C4601F00935F64 /* Model */,
+				33746B1528C4880300FEB304 /* Util */,
+			);
+			path = "Flex365 TV";
+			sourceTree = "<group>";
+		};
+		885C1612E8C598DB3BD41316 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B953550FDE8303D7A2ED0DE5 /* Pods-Flex365 TV.debug.xcconfig */,
+				8FCE00B2120E51B775432BD4 /* Pods-Flex365 TV.release.xcconfig */,
+				ABE49AA59F135733328B0F90 /* Pods-NotificationServiceExtension.debug.xcconfig */,
+				FCBD8F7EA99C1C2CC6A5BF04 /* Pods-NotificationServiceExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33746B1B28C489A700FEB304 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33746B2728C489A700FEB304 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				169181BC0A1ADC736DF885FA /* [CP] Check Pods Manifest.lock */,
+				33746B1828C489A700FEB304 /* Sources */,
+				33746B1928C489A700FEB304 /* Frameworks */,
+				33746B1A28C489A700FEB304 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			productName = NotificationServiceExtension;
+			productReference = 33746B1C28C489A700FEB304 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		33F9034928AE28440061347D /* Flex365 TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F9035E28AE28450061347D /* Build configuration list for PBXNativeTarget "Flex365 TV" */;
+			buildPhases = (
+				8A16D63499BB40356044E91C /* [CP] Check Pods Manifest.lock */,
+				33F9034628AE28440061347D /* Sources */,
+				33F9034728AE28440061347D /* Frameworks */,
+				33F9034828AE28440061347D /* Resources */,
+				33746B2328C489A700FEB304 /* Embed App Extensions */,
+				605BBCD1A37FEA442A63023F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33746B2228C489A700FEB304 /* PBXTargetDependency */,
+			);
+			name = "Flex365 TV";
+			productName = "Flex365 TV";
+			productReference = 33F9034A28AE28440061347D /* Flex365 TV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F9034228AE28440061347D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					33746B1B28C489A700FEB304 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					33F9034928AE28440061347D = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 33F9034528AE28440061347D /* Build configuration list for PBXProject "Flex365 TV" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F9034128AE28440061347D;
+			productRefGroup = 33F9034B28AE28440061347D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F9034928AE28440061347D /* Flex365 TV */,
+				33746B1B28C489A700FEB304 /* NotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33746B1A28C489A700FEB304 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F9034828AE28440061347D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F9035A28AE28450061347D /* LaunchScreen.storyboard in Resources */,
+				33F1036128D0823A00135060 /* Assets.xcassets in Resources */,
+				33F9035528AE28440061347D /* Main.storyboard in Resources */,
+				D2611C0A28E2BB8A004F49EA /* help.json in Resources */,
+				D2611C0828E2BA3C004F49EA /* bussiness.json in Resources */,
+				D2611C0C28E2CBEE004F49EA /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169181BC0A1ADC736DF885FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		605BBCD1A37FEA442A63023F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flex365 TV/Pods-Flex365 TV-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flex365 TV/Pods-Flex365 TV-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flex365 TV/Pods-Flex365 TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A16D63499BB40356044E91C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flex365 TV-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33746B1828C489A700FEB304 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33746B1F28C489A700FEB304 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F9034628AE28440061347D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33746B1728C4882300FEB304 /* NetworkManager.swift in Sources */,
+				D2611BFA28E1A960004F49EA /* ModelSearch.swift in Sources */,
+				3339D11728D840BE007E3922 /* Categories.swift in Sources */,
+				3326F0CB28DC2D7200441D6D /* categorycell2.swift in Sources */,
+				3339D10F28D33D6E007E3922 /* SearchViewController.swift in Sources */,
+				D2611BF828E183FD004F49EA /* FavouriteViewController.swift in Sources */,
+				D2611BF528E056B0004F49EA /* ModelMenu.swift in Sources */,
+				D2611BFC28E1B58A004F49EA /* ModelFavourite.swift in Sources */,
+				330E896728B33B7800409862 /* LoginViewController.swift in Sources */,
+				33F1035F28D05E3D00135060 /* AccountViewController.swift in Sources */,
+				3339D14428D9BA42007E3922 /* channelcell.swift in Sources */,
+				333F662128EACC35007A3D7E /* DynamicHeightCollectionView.swift in Sources */,
+				330E896928B33BA200409862 /* MenuViewController.swift in Sources */,
+				33F1035D28CF862500135060 /* Spinner.swift in Sources */,
+				3339D11628D840BE007E3922 /* Response.swift in Sources */,
+				3326F0CD28DC2D8D00441D6D /* channelcell2.swift in Sources */,
+				33F9035228AE28440061347D /* ViewController.swift in Sources */,
+				33903E3328C4604200935F64 /* User.swift in Sources */,
+				33D1FE3C28D326960041AE1D /* KSToastView.m in Sources */,
+				3339D14228D98B12007E3922 /* categorycell.swift in Sources */,
+				3339D11928D842C7007E3922 /* GridViewController.swift in Sources */,
+				3339D11528D840BE007E3922 /* Channels.swift in Sources */,
+				33F9034E28AE28440061347D /* AppDelegate.swift in Sources */,
+				33D1FE3F28D326CE0041AE1D /* HexColors.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33746B2228C489A700FEB304 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33746B1B28C489A700FEB304 /* NotificationServiceExtension */;
+			targetProxy = 33746B2128C489A700FEB304 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33F9035328AE28440061347D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F9035428AE28440061347D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33F9035828AE28450061347D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F9035928AE28450061347D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33746B2528C489A700FEB304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABE49AA59F135733328B0F90 /* Pods-NotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9XG8CJ2T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolpolok.flex365.tv.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33746B2628C489A700FEB304 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBD8F7EA99C1C2CC6A5BF04 /* Pods-NotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9XG8CJ2T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolpolok.flex365.tv.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33F9035C28AE28450061347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33F9035D28AE28450061347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F9035F28AE28450061347D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B953550FDE8303D7A2ED0DE5 /* Pods-Flex365 TV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9XG8CJ2T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flex365 TV/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flex365 TV";
+				INFOPLIST_KEY_NSCameraUsageDescription = Localized;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Localized;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Localized;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolpolok.flex365.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Flex365 TV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Debug;
+		};
+		33F9036028AE28450061347D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCE00B2120E51B775432BD4 /* Pods-Flex365 TV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E9XG8CJ2T2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Flex365 TV/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flex365 TV";
+				INFOPLIST_KEY_NSCameraUsageDescription = Localized;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = Localized;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Localized;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kolpolok.flex365.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Libraries/Flex365 TV-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33746B2728C489A700FEB304 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33746B2528C489A700FEB304 /* Debug */,
+				33746B2628C489A700FEB304 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F9034528AE28440061347D /* Build configuration list for PBXProject "Flex365 TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F9035C28AE28450061347D /* Debug */,
+				33F9035D28AE28450061347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F9035E28AE28450061347D /* Build configuration list for PBXNativeTarget "Flex365 TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F9035F28AE28450061347D /* Debug */,
+				33F9036028AE28450061347D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F9034228AE28440061347D /* Project object */;
+}
